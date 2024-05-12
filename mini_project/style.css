@@ -1,0 +1,69 @@
+/* Set body and html elements to occupy full height of the viewport and center content */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./bg_img.png'); /* Set background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Styling for the main container */
+#container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* Set background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Styling for buttons in the input area */
+#inputArea button {
+    padding: 10px 20px; /* Set button padding */
+    margin: 5px; /* Set button margin */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #3498db; /* Default button color */
+    color: #fff; /* Set text color */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Change button background color on hover */
+#inputArea button:hover {
+    filter: brightness(90%); /* Reduce brightness on hover */
+}
+
+/* Styling for the start button */
+#inputArea .start-button {
+    background-color: #4CAF50; /* Green */
+}
+
+/* Change background color on hover for start button */
+#inputArea .start-button:hover {
+    filter: brightness(90%); /* Reduce brightness on hover */
+}
+
+/* Styling for the restart button */
+#inputArea .restart-button {
+    background-color: #e65454; /* Red */
+}
+
+/* Change background color on hover for restart button */
+#inputArea .restart-button:hover {
+    filter: brightness(90%); /* Reduce brightness on hover */
+}
+
+/* Styling for the back button */
+#inputArea .back-button {
+    background-color: #f59619; /* Orange */
+}
+
+/* Change background color on hover for back button */
+#inputArea .back-button:hover {
+    filter: brightness(90%); /* Reduce brightness on hover */
+}
